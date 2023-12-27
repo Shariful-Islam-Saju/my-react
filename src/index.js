@@ -3,28 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './newCss.css'
-const name = 'Shariful Islam'
-const date = new Date();
-const dayName = date.getDate();
-const monthName = date.getMonth();
-const yearName = date.getFullYear();
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
-    <h2>Hello</h2>
-    <p>{name}</p>
-    <p>Today's date {dayName + '/' + (monthName + 1) + '/' + yearName}</p>
-    <p className='green'>Background Green</p>
-  </div>
 
-
+  <App />
 
 
   // <React.StrictMode>
-  //   <App />
+  //   
   // </React.StrictMode>
 );
 

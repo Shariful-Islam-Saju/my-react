@@ -1,0 +1,14 @@
+
+
+.card {
+    background-color: whitesmoke;
+    border: none;
+    transition: .4s;
+
+}
+
+.card:hover {
+    transform: scale(1.4);
+    z-index: 2;
+    box-shadow: 3px 3px 3px black;
+}

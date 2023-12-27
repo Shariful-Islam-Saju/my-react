@@ -1,0 +1,57 @@
+
+
+
+
+
+body {
+    padding: 10px;
+}
+.heading {
+    /* background:white linear-gradient( red,orange, rgb(171, 62, 205), green) ; */
+    color: white;
+    text-align: center;
+    padding: 18px 12px;
+    animation: moving infinite .8s ease-in-out;
+}
+
+@keyframes moving{
+    0%{
+        background: linear-gradient(red,orange,rgb(171, 62, 205), green);
+    }
+    
+    25%{
+        background: linear-gradient(green,red ,orange,rgb(171, 62, 205));
+    }
+
+    50% {
+        background:linear-gradient(rgb(171, 62, 205), green,red ,orange ) ;
+    }
+
+    75% {
+        background:orange,rgb(171, 62, 205), green,red ;
+    }
+
+    100% {
+        background: linear-gradient(red,orange,rgb(171, 62, 205), green);
+    }
+}
+
+
+/* 
+.cardTitle {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+ .cardBody {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ }
+
+ .notblock {
+    display:  grid;
+    grid-template-columns:1fr 1fr;
+    gap: 15px;
+
+ } */
